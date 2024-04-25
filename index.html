@@ -4,56 +4,269 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping website</title>
+    <!-- css -->
     <link rel="stylesheet" href="/style.css">
+    <!-- JS -->
     <script src="./script.js" defer></script>
+    <!-- Icon CDN -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- main section of the page -->
     <main class="main_container">
         <!-- navbar -->
         <nav>
+            <h2 id="logo">FASCO</h2>
             <ul class="nav_list">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Sign in</a></li>
+                <button id="sign_up">Sign up</button>
             </ul>
-            <button></button>
         </nav>
         <!-- section  -->
         <section class="main_section">
             <!-- left side  -->
             <div class="left_part">
-
+                <img src="./assets/left-person.png" alt="left-person_image">
             </div>
             <!-- middle side -->
             <div class="middle_part">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div><img src="./assets/middle_img.png" alt="middle_img"></div>
+                <div>
+                    <h2 class="sale_heading">ULTIMATE</h2>
+                    <h2 class="sale_title">SALE</h2>
+                    <p>NEW COLLECTION</p>
+                    <button id="shop_now">Shop Now</button>
+                </div>
+                <div><img src="./assets/Middle_img_two.png" alt="Middle_img_two"></div>
             </div>
             <!-- right side -->
             <div class="right_part">
-
+                <img src="./assets/right_person.png" alt="right_person_image">
             </div>
         </section>
         <div></div>
         <div></div>
     </main>
+    <!-- partners-->
+    <section class="partners">
+        <div class="brand_logos">
+            <img src="./assets/logo1.png" alt="logo1">
+            <img src="./assets/logo2.png" alt="logo2">
+            <img src="./assets/logo3.png" alt="logo3">
+            <img src="./assets/logo4.png" alt="logo4">
+            <img src="./assets/logo5.png" alt="logo5">
+        </div>
+    </section>
     <!-- section 2 -->
     <section class="section_two">
         <div>
             <div class="titles">
-
+                <h3 class="new_arrivals">New Arrivals</h3>
+                <p>Step into the new season with our latest collection. From timeless classics to contemporary designs, there's something for everyone</p>
             </div>
             <div class="product_filters">
-
+                <button>Men’s Fashion</button>
+                <button>Women’s Fashion</button>
+                <button>Women Accessories</button>
+                <button>Men Accessories</button>
+                <button>Discount Deals</button>
             </div>
             <div class="products">
-                <!-- Product_card -->
+                <!-- Product_card 1-->
                 <div class="product_card">
-
+                    <!-- image -->
+                    <div class="product_img">
+                        <img src="./assets/pruduct image.png" alt="fake">
+                    </div>
+                    <!-- details -->
+                    <div class="product_details">
+                        <div class="product_info">
+                            <div>
+                                <h3 class="product_title">Shiny Dress</h3>
+                                <p class="product_sub">Al Karam</p>
+                            </div>
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                        <!-- customer details -->
+                        <div class="customer_details">
+                            <p>(4.1k) Customer Reviews</p>
+                        </div>
+                        <div class="price_container">
+                            <h4 class="price">$95.50</h4>
+                            <span class="status">Almost Sold Out</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product_card 2-->
+                <div class="product_card">
+                    <!-- image -->
+                    <div class="product_img">
+                        <img src="./assets/pruduct image.png" alt="fake">
+                    </div>
+                    <!-- details -->
+                    <div class="product_details">
+                        <div class="product_info">
+                            <div>
+                                <h3 class="product_title">Shiny Dress</h3>
+                                <p class="product_sub">Al Karam</p>
+                            </div>
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                        <!-- customer details -->
+                        <div class="customer_details">
+                            <p>(4.1k) Customer Reviews</p>
+                        </div>
+                        <div class="price_container">
+                            <h4 class="price">$95.50</h4>
+                            <span class="status">Almost Sold Out</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product_card 3-->
+                <div class="product_card">
+                    <!-- image -->
+                    <div class="product_img">
+                        <img src="./assets/pruduct image.png" alt="fake">
+                    </div>
+                    <!-- details -->
+                    <div class="product_details">
+                        <div class="product_info">
+                            <div>
+                                <h3 class="product_title">Shiny Dress</h3>
+                                <p class="product_sub">Al Karam</p>
+                            </div>
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                        <!-- customer details -->
+                        <div class="customer_details">
+                            <p>(4.1k) Customer Reviews</p>
+                        </div>
+                        <div class="price_container">
+                            <h4 class="price">$95.50</h4>
+                            <span class="status">Almost Sold Out</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product_card 4-->
+                <div class="product_card">
+                    <!-- image -->
+                    <div class="product_img">
+                        <img src="./assets/pruduct image.png" alt="fake">
+                    </div>
+                    <!-- details -->
+                    <div class="product_details">
+                        <div class="product_info">
+                            <div>
+                                <h3 class="product_title">Shiny Dress</h3>
+                                <p class="product_sub">Al Karam</p>
+                            </div>
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                        <!-- customer details -->
+                        <div class="customer_details">
+                            <p>(4.1k) Customer Reviews</p>
+                        </div>
+                        <div class="price_container">
+                            <h4 class="price">$95.50</h4>
+                            <span class="status">Almost Sold Out</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product_card 5-->
+                <div class="product_card">
+                    <!-- image -->
+                    <div class="product_img">
+                        <img src="./assets/pruduct image.png" alt="fake">
+                    </div>
+                    <!-- details -->
+                    <div class="product_details">
+                        <div class="product_info">
+                            <div>
+                                <h3 class="product_title">Shiny Dress</h3>
+                                <p class="product_sub">Al Karam</p>
+                            </div>
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                        <!-- customer details -->
+                        <div class="customer_details">
+                            <p>(4.1k) Customer Reviews</p>
+                        </div>
+                        <div class="price_container">
+                            <h4 class="price">$95.50</h4>
+                            <span class="status">Almost Sold Out</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product_card 6-->
+                <div class="product_card">
+                    <!-- image -->
+                    <div class="product_img">
+                        <img src="./assets/pruduct image.png" alt="fake">
+                    </div>
+                    <!-- details -->
+                    <div class="product_details">
+                        <div class="product_info">
+                            <div>
+                                <h3 class="product_title">Shiny Dress</h3>
+                                <p class="product_sub">Al Karam</p>
+                            </div>
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                        <!-- customer details -->
+                        <div class="customer_details">
+                            <p>(4.1k) Customer Reviews</p>
+                        </div>
+                        <div class="price_container">
+                            <h4 class="price">$95.50</h4>
+                            <span class="status">Almost Sold Out</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="btn_div">
