@@ -203,6 +203,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
+
 }
 
 .btn_div{
@@ -346,6 +347,7 @@ nav{
     height: 244px;
     margin: auto;
     border-radius: 10px;
+    cursor: pointer;
 }
 .product_img>img{
     width: 100%;
@@ -364,6 +366,7 @@ nav{
     font-size: 20px;
     font-weight: 500;
     color: #484848;
+    cursor: pointer;
 }
 .product_info>div>p{
     font-family: Poppins;
@@ -675,4 +678,108 @@ footer>p{
     line-height: 26px;
     text-align: center;
     
+}
+
+
+/* CART PAGE CSS */
+.cart_container{
+    width: 1281px;
+    position: relative;
+    margin: auto;  
+    margin-top: 30px;
+    padding: 50px 0;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.cart>a>i:hover{
+    color: rgb(244, 1, 1);
+}
+
+.Product_page{
+    width: 1280px;
+    height: 1038.42px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Volkhov;
+}
+
+.product-big-img{
+    width: 615px;
+    height: 672px;
+    border: 2px solid #ccc;
+    padding: 50px;
+}
+.product-big-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product-all-details{
+    width: 585px;
+    height: 1008.42px;
+}
+.atm_cards{
+    width: 585px;
+    height: 108.92px;
+}
+.atm_cards img{
+    width: 100%;
+    height: 100%;
+}
+
+.product_cart_title{
+    width: 585px;
+    height: 100px;
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.rating_cart_star{
+    width: 585px;
+    height: 22.5px;
+    margin-bottom: 30px;
+}
+.timer_of_sale{
+    color: #FF706B;
+    background-color: #F8CCCC;
+    width: 585px;
+    height: 54px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    border: 1px solid #000;
+}
+.cart_option{
+    width: 442px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px;
+    margin: 30px auto;
+}   
+
+.cart-price{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.cart_btn>button{
+    width: 442px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
 }
